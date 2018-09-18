@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 11px 26px 14px;
+  background-color: #0052c2;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0px 3px 15px 0px rgba(0, 82, 194, 0.5);
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -ms-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+
+  &:hover,&:focus {
+    color: @blueHeading;
+    background-color: #fff;
+    text-decoration: none;
+  }
+
+  &:active {
+    background-color: #0052c2;
+    color: #eeda0d;
+  }
+
+  .fa {
+    margin-right: 5px;
+    font-size: 18px;
+  }
+}

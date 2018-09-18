@@ -1,0 +1,29 @@
+.contacts {
+  background-color: #065A97;
+  color: #fff;
+  
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+    
+    &:hover,&:focus,&:active {
+      color: @yellow;
+      text-decoration: none;
+      border-bottom: 1px dotted @yellow;
+      -webkit-transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in;
+      -o-transition: all .3s ease-in;
+      transition: all .3s ease-in;
+    }
+  }
+}
+
+.contacts__desc {
+  margin-bottom: 30px;
+}

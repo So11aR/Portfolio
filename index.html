@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Titles -->
+  <title>Сергей Спиридонов - Сайт порфолио</title>
+  <meta name="keywords" content="Ключевые слова...">
+  <meta name="description" content="Описание страницы...">
+  <!-- Styles -->
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="fonts/noto-webfont/noto.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+  <!-- FavIcons -->
+  <link rel="shortcut icon" href="img/favicons/favicon-48x48.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+  <!--[if lt IE 8]>
+      <p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>.</p>
+  <![endif]-->
+  <!-- Header -->
+  <div class="header">
+    <div class="header__inner">
+
+      <nav class="navigation">
+        <!-- Navigation icon -->
+        <button class="cmn-toggle-switch cmn-toggle-switch__htx">
+          <span>toggle menu</span>
+        </button>
+        <!-- end of Navigation icon -->
+        <ul class="navigation__list">
+          <li><a href="#resume">Резюме</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__centered-content">
+        <div class="user-photo user-photo--shadow">
+          <img src="usercontent/img/my-photo-small.jpg" alt="user-photo-small">
+        </div>
+        <h1 class="header__title">Сергей Спиридонов</h1>
+        <h2 class="header__subtitle">Верстальщик сайтов</h2>
+      </div>
+      <a href="#resume" class="mouse_scroll">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div>
+          <span class="m_scroll_arrows unu"></span>
+          <span class="m_scroll_arrows doi"></span>
+          <span class="m_scroll_arrows trei"></span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- end of Header -->
+
+  <!-- Resume -->
+  <div id="resume" class="section section--bottom-line section--bg-laptop">
+    <div class="container">
+      <div class="row">
+        <div class="hidden-xs col-sm-2 col-lg-3">
+          <div class="user-photo user-photo--big">
+            <img src="usercontent/img/my-photo-big.jpg" alt="user-photo-big">
+          </div>
+        </div>
+        <div class="col-sm-10 col-lg-9">
+          <div class="heading">Резюме</div>
+          <p><strong>Сергей Спиридонов</strong>
+            <br> 22 года, Санкт-Петербург, Россия</p>
+          <p>Прохожу свой путь от студента к веб-разработчику
+            <br>Верстаю сайты, изучаю фронт-энд. </p>
+          <!-- Experience & Education -->
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="heading heading--medium">Опыт работы</div>
+              <ul class="definition-list">
+                <li class="definition-list__item">
+                  <div class="definition-list__caption">
+                    Декабрь 2017г.
+                  </div>
+                  <div class="definition-list__desc">
+                    <p>Стажёр-разработчик</p>
+                  </div>
+                </li>
+                <li class="definition-list__item">
+                  <div class="definition-list__caption">
+                    Январь 2018 - настоящее время
+                  </div>
+                  <div class="definition-list__desc">
+                    <p>Фрилансер</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="heading heading--medium">Образование</div>
+              <ul class="definition-list">
+                <li class="definition-list__item">
+                  <div class="definition-list__caption">
+                    Октябрь 2017 - Декабрь 2017
+                  </div>
+                  <div class="definition-list__desc">
+                    <p>Курс по верстке сайтов "HTML-Старт" в школе онлайн обучения <strong>"Webcademy"</strong></p>
+                  </div>
+                </li>
+                <li class="definition-list__item">
+                  <div class="definition-list__caption">
+                    Январь 2018. - Июнь 2018
+                  </div>
+                  <div class="definition-list__desc">
+                    <p>Курс "Веб-разработка. Frontend и Backend" в школе онлайн обучения <strong>"Webcademy"</strong></p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of Experience & Education -->
+          <a class="button" href="usercontent/pdf/resume.pdf" download="Сергей_Спиридонов.pdf">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            Скачать резюме
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- enf of Resume -->
+
+  <!-- My projects -->
+  <div id="portfolio" class="section section--padding-small section--bg-gear">
+    <div class="container">
+      <div class="heading heading--center">Мои работы</div>
+      <!-- Filter -->
+      <div class="filter-section">
+        <ul class="filter-section__block">
+          <li class="filter-section__element">
+            <span class="filter fliter-section__button" data-filter="all">Все</span>
+          </li>
+          <li class="filter-section__element">
+            <span class="filter fliter-section__button" data-filter=".html-css">HTML+CSS</span>
+          </li>
+          <li class="filter-section__element">
+            <span class="filter fliter-section__button" data-filter=".bootstrap">Bootstrap</span>
+          </li>
+          <li class="filter-section__element">
+            <span class="filter fliter-section__button" data-filter=".study">Учебные</span>
+          </li>
+          <li class="filter-section__element">
+            <span class="filter fliter-section__button" data-filter=".order">На заказ</span>
+          </li>
+        </ul>
+      </div>
+      <!-- end of Filter -->
+
+      <!-- Row of Blocks with projects -->
+      <div id="projects" class="row">
+        <!-- Single Block with project -->
+        <div class="col-sm-4 mix html-css study">
+          <div class="portfolio-item">
+            <div class="portfolio-item__image">
+              <a href="usercontent/img/full/organic.png" rel="group" class="fancybox portfolio-item__image--hover" title="Учебный макет Organica">
+              <i class="fa fa-search" aria-hidden="true"></i><br>
+              <span>смотреть макет</span>
+            </a>
+              <img src="usercontent/img/project_organica.jpg" alt="organica">
+            </div>
+            <div class="portfolio-item__caption">
+              <a href="../organica/index.html" target="_blank">Учебный макет Organica</a>
+            </div>
+            <div class="portfolio-item__desc">Верстка одностраничного сайта по PSD макету.
+            </div>
+          </div>
+        </div>
+        <!-- end of Single Block with project -->
+
+        <!-- Single Block with project -->
+        <div class="col-sm-4 mix bootstrap study">
+          <div class="portfolio-item">
+            <div class="portfolio-item__image">
+              <a href="usercontent/img/full/apollo.png" rel="group" class="fancybox portfolio-item__image--hover" title="макет Аполло">
+              <i class="fa fa-search" aria-hidden="true"></i><br>
+              <span>смотреть макет</span>
+            </a>
+              <img src="usercontent/img/project_apollo.jpg" alt="apollo">
+            </div>
+            <div class="portfolio-item__caption">
+              <a href="../apollo/index.html" target="_blank">Учебный макет Аполло</a>
+            </div>
+            <div class="portfolio-item__desc">Верстка лендинга хостинг компании. Мобильная адаптивность.
+            </div>
+          </div>
+        </div>
+        <!-- end of Single Block with work -->
+
+        <!-- Single Block with work-->
+        <div class="col-sm-4 mix bootstrap study">
+          <div class="portfolio-item">
+            <div class="portfolio-item__image">
+              <a href="usercontent/img/full/portfolio.png" rel="group" class="fancybox portfolio-item__image--hover" title="сайт Портфолио">
+              <i class="fa fa-search" aria-hidden="true"></i><br>
+              <span>смотреть макет</span>
+              </a>
+              <img src="usercontent/img/project_portfolio.jpg" alt="portfolio">
+            </div>
+            <div class="portfolio-item__caption">
+              <a href="index.html">Личный сайт Портфолио</a>
+            </div>
+            <div class="portfolio-item__desc">
+              Верстка личного сайта портфолио на котором вы сейчас находитесь.
+            </div>
+          </div>
+        </div>
+        <!-- end of Single Block with work -->
+
+        <!-- Single Block with work-->
+        <div class="col-sm-4 mix html-css order">
+          <div class="portfolio-item">
+            <div class="portfolio-item__image">
+              <a href="usercontent/img/full/car-concept.png" rel="group" class="fancybox portfolio-item__image--hover" title="Промо сайт автомобиля">
+              <i class="fa fa-search" aria-hidden="true"></i><br>
+              <span>смотреть макет</span>
+            </a>
+              <img src="usercontent/img/project_auto.jpg" alt="promo auto">
+            </div>
+            <div class="portfolio-item__caption">
+              <a href="usercontent/img/full/car-concept.png">Промо сайт автомобиля</a>
+            </div>
+            <div class="portfolio-item__desc">Верстка сайта для презентации концепта автомобиля.
+            </div>
+          </div>
+        </div>
+        <!-- end of Single Block with work -->
+
+        <!-- Single Block with work-->
+        <div class="col-sm-4 mix html-css order">
+          <div class="portfolio-item">
+            <div class="portfolio-item__image">
+              <a href="usercontent/img/full/motorcycles.jpg" rel="group" class="fancybox portfolio-item__image--hover" title="Магазин мотоциклов">
+              <i class="fa fa-search" aria-hidden="true"></i><br>
+              <span>смотреть макет</span>
+            </a>
+              <img src="usercontent/img/project_moto.jpg" alt="moto shop">
+            </div>
+            <div class="portfolio-item__caption">
+              <a href="usercontent/img/full/motorcycles.jpg">Магазин мотоциклов</a>
+            </div>
+            <div class="portfolio-item__desc">Верстка лендинга для компании Indian Motorcycles.
+            </div>
+          </div>
+        </div>
+        <!-- end of Single Block with work -->
+
+        <!-- Single Block with work-->
+        <div class="col-sm-4 mix bootstrap order">
+          <div class="portfolio-item">
+            <div class="portfolio-item__image">
+              <a href="usercontent/img/full/music.jpg" rel="group" class="fancybox portfolio-item__image--hover" title="Магазин аудиотехники">
+              <i class="fa fa-search" aria-hidden="true"></i><br>
+              <span>смотреть макет</span>
+            </a>
+              <img src="usercontent/img/project_music.jpg" alt="audio shop">
+            </div>
+            <div class="portfolio-item__caption">
+              <a href="usercontent/img/full/music.jpg">Магазин аудиотехники</a>
+            </div>
+            <div class="portfolio-item__desc">Верстка страниц для магазина винтажной аудиотехники.
+            </div>
+          </div>
+        </div>
+        <!-- end of Single Block with work -->
+      </div>
+      <!-- end of Row of Blocks with works -->
+    </div>
+    <!-- end of Container -->
+  </div>
+  <!-- end of My projects -->
+
+  <!-- Contacts -->
+  <div id="contacts" class="contacts section section--bg-cloud section-padding-small ">
+    <div class="container">
+      <div class="row">
+        <!-- Contacts - Text -->
+        <div class="col-sm-6">
+          <div class="heading heading--white">Контакты</div>
+          <div class="contacts__desc">
+            <p>Если вы ищите специалиста по верстке сайтов, front-end разработчика в команду или для работы над проектом —  я к вашим услугам.</p>
+          </div>
+
+          <!-- Contacts - info -->
+          <div class="row">
+            <!-- Email Skype -->
+            <div class="col-lg-6">
+
+              <ul class="definition-list">
+                <li class="definition-list__item">
+                  <div class="definition-list__caption definition-list__caption--big-size definition-list__caption--light-color">
+                    Email
+                  </div>
+                  <div class="definition-list__desc">
+                    <p><a href="mailto:s.spiridonovv@mail.ru" target="_blank">s.spiridonovv@mail.ru</a></p>
+                  </div>
+                </li>
+                <li class="definition-list__item">
+                  <div class="definition-list__caption definition-list__caption--big-size definition-list__caption--light-color">
+                    Skype
+                  </div>
+                  <div class="definition-list__desc">
+                    <p><a href="skype:sergey-spiridonov1?chat" target="_blank">sergey-spiridonov1</a></p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of Email Skype -->
+            <!-- Address -->
+            <div class="col-lg-6">
+              <ul class="definition-list">
+                <li class="definition-list__item">
+                  <div class="definition-list__caption definition-list__caption--big-size definition-list__caption--light-color">
+                    Телефон
+                  </div>
+                  <div class="definition-list__desc">
+                    <p><a href="tel:+78125557722" target="_blank">+7 (921) 982-89-02</a></p>
+                  </div>
+                </li>
+                <li class="definition-list__item">
+                  <div class="definition-list__caption definition-list__caption--big-size definition-list__caption--light-color">
+                    Адрес
+                  </div>
+                  <div class="definition-list__desc">
+                    <p>Россия, Санкт-Петербург</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- end of Address -->
+          </div>
+          <!-- end of Contacts - info -->
+          <!-- Social icons -->
+          <ul class="definition-list">
+                <li class="definition-list__item">
+                  <div class="definition-list__caption definition-list__caption--big-size definition-list__caption--light-color">
+                    Социальные сети
+                  </div>
+                  <div class="definition-list__desc">
+                    <div class="social-icons">
+                      <a href="https://vk.com/s_webdevelop" class="fa fa-vk" aria-hidden="true" target="_blank"></a>
+                      <!-- <a class="fa fa-twitter" aria-hidden="true" target="_blank"></a>
+                      <a class="fa fa-youtube" aria-hidden="true" target="_blank"></a>
+                      <a class="fa fa-instagram" aria-hidden="true" target="_blank"></a> -->
+                      <a href="https://facebook.com/" class="fa fa-facebook" aria-hidden="true" target="_blank"></a>
+                      <a href="https://github.com/So11aR" class="fa fa-github" aria-hidden="true" target="_blank"></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+          <!-- end of Sociaal icons -->
+        </div>
+        <!-- end of Contacts - Text -->
+
+        <!-- Contacts - Form -->
+        <div class="col-sm-6">
+          <div class="heading heading--medium heading--padding-top heading--white">Связаться со мной</div>
+          <form class="contact-form" action="php/mail.php" method="POST">
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Сайт портфолио">
+            <input type="hidden" name="admin_email" value="serega.spiridonoff2013@yandex.ru">
+            <input type="hidden" name="form_subject" value="Обратная связь">
+            <!-- end of Hidden Required Fields -->
+
+            <input type="text" class="contact-form__input" name="name" placeholder="Имя">
+            <input type="text" class="contact-form__input" name="email" placeholder="Email">
+            <div class="clearfix">
+              <input type="text" class="contact-form__input contact-form__input--half-width" name="skype" placeholder="Skype">
+              <input type="text" class="contact-form__input contact-form__input--half-width" name="phone" placeholder="Телефон">
+            </div>
+            <div class="contact-form__bg-pencil">
+              <textarea class="contact-form__textarea" name="message" placeholder="Ваше сообщение"></textarea>
+            </div>
+            <input class="contact-form__submit" type="submit" name="submit_button" value="Отправить">
+          </form>
+          <div id="answer"></div>
+        </div>
+        <!-- end of Contacts - Form -->
+      </div>
+    </div>
+  </div>
+  <!-- end of Contacts -->
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <div class="container">
+
+      <p class="copyright__label">© 2018 Сергей Спиридонов</p>
+      <p> Верстальщик из Санкт-Петербурга, занимаюсь версткой и соданием сайтов.</p>
+      <p> Этот сайт выполнен в рамках прохождения курса по верстке в школе онлайн-обучения <a href="http://webcademy.ru" target="_blank">Webcademy.ru</a></p>
+    </div>
+  </div>
+
+  <!-- // Copyright -->
+  <!-- Vendor Scripts -->
+  <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
+  <script src="libs/mixitup2/jquery.mixitup.min.js"></script>
+  <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="libs/jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script src="libs/jquery.validate/jquery.validate.js"></script>
+  <!-- User Scripts -->
+  <script src="js/navigation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
